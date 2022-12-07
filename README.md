@@ -1,7 +1,7 @@
 # Onesky API Wrapper
 Fully typed wrapper for the OneSky API for easy access and management of translation files.
 
-The implementation follows the official documentation for the API, such that each controller description in the documentation has a corresponding class, that implements it. 
+The implementation follows the official documentation for the API, such that each controller description in the documentation has a corresponding class, that implements it. The official documentation can be found at: https://github.com/onesky/api-documentation-platform
 
 ## Usage
 ```typescript
