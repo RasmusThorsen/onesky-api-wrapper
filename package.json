@@ -1,6 +1,6 @@
 {
   "name": "onesky-api-wrapper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A fully typed wrapper for the OneSky API.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/RasmusThorsen/onesky-api-wrapper.git"
   },
-  "keywords": [],
+  "keywords": ["onesky", "translation", "onesky-utils", "i18n", "internationalization"],
   "author": "RasmusThorsen",
   "license": "MIT",
   "files": [
