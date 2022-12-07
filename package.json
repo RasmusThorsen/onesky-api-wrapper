@@ -1,6 +1,6 @@
 {
   "name": "onesky-api-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fully typed wrapper for the OneSky API.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
