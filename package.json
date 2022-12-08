@@ -1,17 +1,12 @@
 {
   "name": "onesky-api-wrapper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A fully typed wrapper for the OneSky API.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "test": "jest --config jestconfig.json",
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
-    "prepublishOnly": "npm run lint",
-    "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
   },
@@ -36,9 +31,6 @@
   },
   "homepage": "https://github.com/RasmusThorsen/onesky-api-wrapper#readme",
   "devDependencies": {
-    "prettier": "^2.8.0",
-    "tslint": "^6.1.3",
-    "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.9.3"
   },
   "type": "module"
