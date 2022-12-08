@@ -11,7 +11,7 @@ export class OrderApi {
   listOrders(options: { projectId: string; params: ListOrdersParam }): Promise<ListOrdersResponse> {
     const url = `projects/${options.projectId}/orders`;
 
-    return this._http.get(url, new URLSearchParams({ ...options.params }));
+    return this._http.get(url, new URLSearchParams({ ...options.params } as any));
   }
 
   showDetails(options: { projectId: string; orderId: string }): Promise<OrderDetailsResponse> {

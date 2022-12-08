@@ -17,13 +17,13 @@ export class TranslationApi {
   export(options: { projectId: string; params: ExportFilesParams }): Promise<File> {
     const url = `projects/${options.projectId}/translations`;
 
-    return this._http.get(url, new URLSearchParams({ ...options.params }));
+    return this._http.get(url, new URLSearchParams({ ...options.params } as any));
   }
 
   exportMultilingual(options: { projectId: string; params: ExportMultilingiualParams }): Promise<File> {
     const url = `projects/${options.projectId}/translations/multilingual`;
 
-    return this._http.get(url, new URLSearchParams({ ...options.params }));
+    return this._http.get(url, new URLSearchParams({ ...options.params } as any));
   }
 
   exportAppStoreDescription(options: { projectId: string; locale: string }): Promise<AppStoreDescriptionResponse> {

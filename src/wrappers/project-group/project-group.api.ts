@@ -18,7 +18,7 @@ export class ProjectGroupApi {
   listAll(options: { params: ListProjectGroupParams }): Promise<ListProjectGroupResponse> {
     const url = 'project-groups';
 
-    return this._http.get(url, new URLSearchParams({ ...options.params }));
+    return this._http.get(url, new URLSearchParams({ ...options.params } as any));
   }
 
   showDetails(options: { projectGroupId: string }): Promise<ProjectGroupDetailsResponse> {
@@ -30,7 +30,7 @@ export class ProjectGroupApi {
   create(options: { params: CreateProjectGroupParams }): Promise<CreateProjectGroupResponse> {
     const url = 'project-groups';
 
-    return this._http.post(url, new URLSearchParams({ ...options.params }));
+    return this._http.post(url, new URLSearchParams({ ...options.params } as any));
   }
 
   delete(options: { projectGroupId: string }): Promise<any> {

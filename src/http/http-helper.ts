@@ -1,7 +1,5 @@
-// @ts-ignore
-import md5 from 'md5';
-import fetch, { Response } from 'node-fetch';
 import { OneSkyConfig, DevHash } from './http-helper.model.js';
+import { md5 } from './md5.js';
 
 export class HttpHelper {
   private _baseUrl = 'https://platform.api.onesky.io/1';

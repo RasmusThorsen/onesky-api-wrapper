@@ -1,2 +1,2 @@
-export * from './translation.api';
-export * from './translation.model';
+export * from './translation.api.js';
+export * from './translation.model.js';

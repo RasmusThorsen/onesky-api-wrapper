@@ -11,7 +11,7 @@ export class ImportTaskApi {
   listTasks(options: { projectId: string; params: ListImportTaskParams }): Promise<ListImportTaskResponse> {
     const url = `projects/${options.projectId}/import-tasks`;
 
-    return this._http.get(url, new URLSearchParams({ ...options.params }));
+    return this._http.get(url, new URLSearchParams({ ...options.params } as any));
   }
 
   showTasks(options: { projectId: string; importId: string }): Promise<ShowImportTaskResponse> {

@@ -1,2 +1,2 @@
-export * from './project-group.api';
-export * from './project-group.model';
+export * from './project-group.api.js';
+export * from './project-group.model.js';

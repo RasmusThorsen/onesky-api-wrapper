@@ -1,2 +1,2 @@
-export * from './quotation.api';
-export * from './quotation.model';
+export * from './quotation.api.js';
+export * from './quotation.model.js';

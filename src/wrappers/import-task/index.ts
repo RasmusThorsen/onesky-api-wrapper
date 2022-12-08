@@ -1,2 +1,2 @@
-export * from './import-task.api';
-export * from './import-task.model';
+export * from './import-task.api.js';
+export * from './import-task.model.js';

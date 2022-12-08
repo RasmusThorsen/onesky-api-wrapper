@@ -1,2 +1,2 @@
-export * from './http-helper';
-export * from './http-helper.model';
+export * from './http-helper.js';
+export * from './http-helper.model.js';

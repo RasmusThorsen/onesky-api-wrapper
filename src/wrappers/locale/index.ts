@@ -1,2 +1,2 @@
-export * from './locale.api';
-export * from './locale.model';
+export * from './locale.api.js';
+export * from './locale.model.js';

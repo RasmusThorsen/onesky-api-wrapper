@@ -30,7 +30,7 @@ export class ProjectApi {
   createProject(options: { projectGroupId: string; params: CreateProjectParams }): Promise<CreateProjectResponse> {
     const url = `project-groups/${options.projectGroupId}/projects`;
 
-    return this._http.post(url, new URLSearchParams({ ...options.params }));
+    return this._http.post(url, new URLSearchParams({ ...options.params } as any));
   }
 
   updateProject(options: { projectId: string; params: UpdateProjectParams }): Promise<any> {

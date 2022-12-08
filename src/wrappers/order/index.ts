@@ -1,2 +1,2 @@
-export * from './order.api';
-export * from './order.model';
+export * from './order.api.js';
+export * from './order.model.js';

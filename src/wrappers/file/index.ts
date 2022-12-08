@@ -1,2 +1,2 @@
-export * from './file.api';
-export * from './file.model';
+export * from './file.api.js';
+export * from './file.model.js';
